@@ -1,6 +1,6 @@
 {
   "name": "atom-pkg-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "test my first bin pkg",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
