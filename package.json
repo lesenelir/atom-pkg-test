@@ -1,0 +1,14 @@
+{
+  "name": "atom-pkg-test",
+  "version": "1.0.0",
+  "description": "test my first bin pkg",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "lesenelir <hi@lesenelir.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
