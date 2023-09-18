@@ -7,6 +7,13 @@
   "bin": {
     "atom-pkg-test": "./bin/index.js"
   },
+  "files": [
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lesenelir/atom-pkg-test"
+  },
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc --target es5"
