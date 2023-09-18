@@ -4,11 +4,18 @@
   "description": "test my first bin pkg",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "bin": {
+    "atom-pkg-test": "./bin/index.js"
+  },
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc --target es5"
   },
-  "keywords": [],
+  "keywords": [
+    "atom",
+    "pkg",
+    "test"
+  ],
   "author": "lesenelir <hi@lesenelir.me>",
   "license": "ISC",
   "devDependencies": {
