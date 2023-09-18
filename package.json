@@ -2,8 +2,11 @@
   "name": "atom-pkg-test",
   "version": "1.0.0",
   "description": "test my first bin pkg",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc --target es5"
   },
   "keywords": [],
   "author": "lesenelir <hi@lesenelir.me>",
