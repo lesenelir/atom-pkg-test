@@ -1,2 +1,3 @@
 #!/usr/bin/env node
-console.log('gm web from atom-pkg-test')
+import {name} from '../dist/index.js'
+console.log('gm web from atom-pkg-test', name)
